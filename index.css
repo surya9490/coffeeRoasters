@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0; }
+
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        font-family: var(--barow-font-family);
+    }
+
+h1 {
+    font-size: 7.2rem;
+    line-height: 72rem;
+}
+h2 {
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+}
+h3 {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+}
+
+h4 {
+    font-family: var(--fraunces-font-family);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    text-align: center;
+    color: var(--dark-grey-blue-color);
+}
+
+
+
+
+     
+:root {
+    --dark-grey-blue-color:#333D4B;
+    --dark-cyan-color:#0E8784;
+    --pale-orange-color:#FDD6BA;
+    --primary-color: #FEFCF7;
+    --barow-font-family: 'Barlow', sans-serif;
+    --fraunces-font-family:'Fraunces 9pt';
+  
+  
+   
+
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 3.2rem 2.4rem;
+    
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.main-header h2 {
+    color: var(--dark-grey-blue-color);
+}
+
+.description {
+    background-image: url('./assets/home/mobile/image-hero-coffeepress.jpg');
+    height: 50rem;
+    background-size: cover;
+    object-position: top;
+    margin-top: 4.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.button {
+    font-family: var(--fraunces-font-family);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 15px 32px 16px 31px;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--dark-cyan-color);
+    border: none;
+    opacity: 1;
+}
+
+.description__container {
+    max-width: 27.9rem;
+}
+.description h1 {
+    font-family: var(--fraunces-font-family);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    color: var(--primary-color);
+    margin-bottom: 2.4rem;
+    opacity: 1;
+}
+.description p {
+    font-family: var(--barow-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--primary-color);
+    margin-bottom: 3.9rem;
+    opacity: 0.8;
+}
+
+.collection {
+    margin-top: 12rem;
+    margin-bottom: 6rem;
+}
+.collection__header {
+    position: relative;
+    margin-bottom: 1.3rem;
+}
+.collection__header h2 {
+    font-size: 45px;
+    color: #83888F;
+    text-align: center;
+    letter-spacing: 1.5px;
+    position: absolute;
+    z-index: -1;
+    top: 15px;
+    text-align: center;
+  
+} 
+.collection__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.collection__item img{
+    width: 200px;
+    height: 151px;
+    margin-bottom: 2.4rem;
+}
+
+.collection__item p {
+    overflow: hidden;
+   max-height: 5rem;
+   margin-top: 1.6rem;
+   margin-bottom: 6rem;
+}
+.details {
+    margin-bottom: 70rem;
+}
+
+.detials-description-card {
+    background-color: var(--dark-grey-blue-color);
+    height: 90rem;
+    position: relative;
+}
+
+
+.details__info {
+    background-color: #2C343E;
+    height: 26.9rem;
+    width: 100%;
+    text-align: center;
+    padding: 0 2.4rem;
+    
+}
+.details__info h5 {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    font-weight: 900;
+    color: var(--primary-color);
+    padding-top: 6.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.details__info p {
+    overflow: hidden;
+    max-height: 12.5rem;
+    opacity: 1;
+    color: var(--primary-color);
+    opacity: 0.8;
+   
+}
+.details__icon {
+    position:absolute;
+    top: 30.5rem;
+}
+
+.details__icon-card {
+    height: 38.2rem;
+    margin: 0 2.4rem;
+    padding: 0 3.35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--dark-cyan-color);
+    margin-bottom: 2.4rem;
+    border-radius: 0.6rem;
+}
+
+.details__icon-card h4 {
+    color: var(--primary-color);
+    margin-top: 6.4rem;
+} 
+
+.details__icon-card p {
+    max-height: 7.5rem;
+    overflow: hidden;
+    color: var(--primary-color);
+    margin-top: 2.4rem;
+}
+.steps-to-order {
+    margin: 12rem 0;
+}
+.steps-to-order > h4 {
+    margin-bottom: 8rem;
+}
+
+
